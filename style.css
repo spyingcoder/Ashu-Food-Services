@@ -123,7 +123,7 @@ nav ul li a:hover{
   border: 2px solid red;
   border-radius: 2em;
   margin: 1em;
-  padding-top: 3em;
+  padding-top: 5em;
   padding-left: 3.5em;
   padding-right: 3.5em;
   padding-bottom: 3em;
@@ -214,18 +214,55 @@ nav ul li a:hover{
 
 /* Contact-section */
 #contact-section{
-  display: flex;
-  justify-content: center;
-  color: white;
-  align-items: center;
-  flex-direction: column;
   height: 30rem;
   background-color: midnightblue;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-form-area{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+  width: 22em;
+  height: 20em;
+  border-radius: 0.5em;
+  padding: 1em 2em;
 }
 
 #contact-section h1{
   color: white;
-  margin-top: -4em;
+  margin-top: -1em; 
+  margin-bottom: 1em; 
+}
+
+.form-group{
+  width: 20em;
+  height: 1.8em;
+  margin: 1em;
+  border-radius: 0.5em;
+}
+
+#message{
+  height: 6em;
+}
+
+#submit{
+  border-radius: 1em;
+  color: brown;
+  font-family: 'Bree Serif', serif;
+  background-color: burlywood;
+}
+
+#submit:hover{
+  cursor: pointer;
 }
 
 /* footer-section */
@@ -236,7 +273,6 @@ footer{
   align-items: center;
   color: white;
   background-color: blue;
-  /* bottom: 0px; */
 }
 
 footer a{
