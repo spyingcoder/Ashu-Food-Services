@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* navigation */
+#navbar{
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 15px; 
+}
+
+nav ul li a{
+  padding: 0px 8px;
+  font-size: 0.9em;
+  margin: 10px;
+  /* margin-bottom: 20px; */
+}
+
+/* home-section */
+
+#home{
+  padding: 1em;
+  height: 12em;
+  padding-bottom: 10px;
+}
+
+#home::before{
+  height: 25.5em;
+}
+
+#home h1{
+  font-size: 1.5em;
+  margin: 3em 10px;
+  margin-bottom: 1em;
+}
+
+#home h1::before{
+  height: 17em;
+}
+
+/* services-section */
