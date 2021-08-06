@@ -96,7 +96,6 @@ nav ul li a{
 #clients::before{
   height: 14rem;
   content: "";
-  background: url('images/sponsers_bg.png');
   position: absolute;
   top: 90rem;
   left: 0px;
@@ -148,3 +147,21 @@ footer, footer a{
 .secondary-heading {
   font-size: 0.85em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
