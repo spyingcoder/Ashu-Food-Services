@@ -4,7 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SignUp Page for AFS</title>
+      <link rel="stylesheet" href="/../CSS/signup.css" type="text/css" media="all" />
+      <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+      <link rel="stylesheet" media="screen and (max-width: 600px)" href="/../CSS/signup_sp-look.css">
 </head>
 <body>
+   <nav id="navbar">
+     <div class="home_logo">
+       <img src="/../images/home_logo.png" id="home_logo" alt="ashufoodservices.com" />
+     </div>
+     <ul type="none" class="ul">
+       <li><a href="#home">Home</a></li>
+       <li><a href="#services-section">Services</a></li>
+       <li><a href="#clients">Clients</a></li>
+       <li><a href="#contact-section">Contact Us</a></li>
+     </ul>
+     <div>
+       <button id="login" class="btn">Log In</button>
+       <button id="signup" class="btn">Sign Up</button>
+     </div>
+   </nav>
+   
+   <div id="page_area">
+   
+   <div id="heading_area">
+     <h1 class="primary-heading">ASHU FOOD SERVICES</h1>
+   </div>
+   
+   <div class="form-box">
+     <h2 class=".secondary-heading">Sign Up Here
+     </h1>
+     <form action="" method="">
+       <div>
+         <input type="text" class="form-group" name="name" id="name" placeholder="Enter Your Name" />
+       </div>
+       <div>
+         <input class="form-group" type="email" name="email" id="email" placeholder="Enter Your Email" />
+       </div>
+       <div>
+         <input class="form-group" type="number" name="phone_number" placeholder="Enter Your Mobile Number" id="phone_number" />
+       </div>
+       <div>
+         <textarea class="form-group" name="message" id="message" placeholder="Write your message here" rows="8" cols="30"></textarea>
+       </div>
+       <div>
+         <button class="form-group" id="submit" type="submit">Click To Submit</button>
+       </div>
+     </form>
+   </div>
+   
+   <!-- https://source.unsplash.com/featured/1420x2486/?{fastfood} -->
+   
+   <section id="clients">
+     <h1 class="primary-heading">Our Clients</h1>
+     <div id="client-images-container">
+       <img id="apple_logo" src="/../images/apple_logo.png" alt="APPLE" />
+       <img id="md_logo" src="/../images/md_logo.png" alt="MAC DONALD'S" />
+       <img id="honda_logo" src="/../images/honda_logo.png" alt="HONDA" />
+       <img id="microsoft_logo" src="/../images/microsoft_logo.png" alt="MICROSOFT" />
+     </div>
+   </section>
+   
+   </div>
+   
+    <footer>
+      Copyright &copy; &nbsp;<a href="#">ashufoodservices.com</a>. All rights reserved.
+    </footer>
 </body>
 </html>
