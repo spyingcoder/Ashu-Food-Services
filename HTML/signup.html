@@ -7,6 +7,7 @@
       <link rel="stylesheet" href="/../CSS/signup.css" type="text/css" media="all" />
       <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
       <link rel="stylesheet" media="screen and (max-width: 600px)" href="/../CSS/signup_sp-look.css">
+       <script src="/../JavaScript/cities.js"></script>
 </head>
 <body>
    <nav id="navbar">
@@ -32,23 +33,35 @@
    </div>
    
    <div class="form-box">
-     <h2 class=".secondary-heading">Sign Up Here
+     <h2 class="secondary-heading">Sign Up Here
      </h1>
      <form action="" method="">
        <div>
-         <input type="text" class="form-group" name="name" id="name" placeholder="Enter Your Name" />
+         <input type="text" class="form-control" name="name" id="name" placeholder="Enter Your Name" required/>
        </div>
        <div>
-         <input class="form-group" type="email" name="email" id="email" placeholder="Enter Your Email" />
+         <input class="form-control" type="email" name="email" id="email" placeholder="Enter Your Email" required/>
        </div>
        <div>
-         <input class="form-group" type="number" name="phone_number" placeholder="Enter Your Mobile Number" id="phone_number" />
+         <input class="form-control" type="number" name="phone_number" placeholder="Enter Your Mobile Number(With Code)" id="phone_number" />
        </div>
        <div>
-         <textarea class="form-group" name="message" id="message" placeholder="Write your message here" rows="8" cols="30"></textarea>
+         <input class="form-control" type="password" name="pass" placeholder="Password" id="pass" value="" />
        </div>
        <div>
-         <button class="form-group" id="submit" type="submit">Click To Submit</button>
+         <input class="form-control" type="password" name="conf_pass" placeholder="Confirm Password" id="conf_pass" value="" />
+       </div>
+       <div>
+         <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="stt" class="form-control" required></select>
+       </div>
+         
+       <div>
+         
+<select id ="state" class="form-control" required></select>
+<script language="javascript">print_state("sts");</script>
+       </div>
+       <div>
+         <button class="form-control" id="submit" type="submit">Click To Submit</button>
        </div>
      </form>
    </div>
