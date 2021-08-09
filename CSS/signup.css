@@ -194,6 +194,11 @@ nav ul li a:hover, nav ul li a.active{
 
 #terms{
   padding-right: 1em;
+  text-decoration: none;
+}
+
+#login_here{
+  text-decoration: none;
 }
 
 #check{
