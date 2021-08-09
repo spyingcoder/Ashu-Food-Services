@@ -43,6 +43,7 @@ body{
    font-family:  serif;
    margin-top: 0.5em 0em;
    font-size: 2em;
+   padding-right: 2rem;
 }
 
 .secondary-heading::before {
@@ -146,7 +147,7 @@ nav ul li a:hover, nav ul li a.active{
 
 
 #page_area{
-    height: 57vh;
+    height: 64.25vh;
     display: flex;
     flex-direction: column;
 }
@@ -156,7 +157,7 @@ nav ul li a:hover, nav ul li a.active{
  background: url('/../images/home_bg.jpg');
  /* background: url('https://source.unsplash.com/featured/1420x2486/?{fastfood}') no-repeat center center/cover; */
  position: absolute;
- height: 51%; 
+ height: 59.25%; 
  width: 100%;
  top: 0px;
  left: 0px;
@@ -171,15 +172,16 @@ nav ul li a:hover, nav ul li a.active{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 2rem -5rem;
+  padding: 2rem 1rem;
+  padding-left: 4rem;
   background-color: white;
-  height: 34rem;
+  height: 37rem;
   width: 25rem;
   align-self: center;
   border: 2px solid black; 
   border-radius: 13px;
   box-shadow:  3px 5px darkblue;
-  margin-bottom: -4em;
+  margin-bottom: -2em;
 }
 
 .form-control{
@@ -188,6 +190,14 @@ nav ul li a:hover, nav ul li a.active{
   width: 20em;
   height: 1.8em;
   border-radius: 0.5em;
+}
+
+#terms{
+  padding-right: 1em;
+}
+
+#check{
+  padding-left: 1em;
 }
 
 /* submit button */
